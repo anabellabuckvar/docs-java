@@ -2,6 +2,7 @@ on: push
 name: Build site
 jobs:
   build-site:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
